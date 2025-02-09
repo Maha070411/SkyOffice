@@ -1,25 +1,23 @@
-# SkyOffice
-Immersive 2D virtual office
+# Getting Started with Vite
 
-Constructed with
-Phaser3 - Game engine
-Colyseus - WebSocket-based server framework
-React/Redux - Front-end framework
-PeerJS - WebRTC for video/screen sharing
-TypeScript and ES6 - for both client and server sides
+SkyOffice's client side was bootstrapped with [Vite](https://vitejs.dev/).
 
-Prerequisites
+## Available Scripts
 
-You'll need Node.js, and npm installed.
+In the project directory, you can run:
 
-cd SkyOffice or 'my-folder-name'
+### `yarn`
 
-yarn && yarn start
+Installs all the required packages.
 
-To start a server, go into the server folder and install dependencies/run start command:
+### `yarn dev`
 
-cd SkyOffice/client or 'my-folder-name/client'
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-yarn && yarn dev
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-To start a client, go into the client folder and install dependencies/run start command:
+### `yarn build`
+
+Builds the app for production to the `dist` folder.
